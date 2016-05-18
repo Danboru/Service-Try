@@ -17,11 +17,9 @@ public class MainActivity extends Activity {
     }
 
 
-
     public void startService(View view) {
         startService(new Intent(getBaseContext(), MyService.class));
     }
-
 
 
     public void stopService(View view) {
