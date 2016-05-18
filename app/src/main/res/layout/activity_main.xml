@@ -4,18 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.danboru.kelas.MainActivity"
-    android:gravity="center"
     android:background="#42cfb3"
+    android:gravity="center"
     >
 
-
-   <TextView
-       android:id="@+id/test"
-       android:layout_width="wrap_content"
+   <Button
+       android:id="@+id/tombolsatu"
+       android:layout_width="150dp"
        android:layout_height="wrap_content"
-       android:text="Hello dunia"
-       android:gravity="center"
-       android:textAppearance="?android:textAppearanceMedium"
+       android:text="@string/berhenti_service"
+       />
+
+   <Button
+       android:id="@+id/tomboldua"
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+       android:text="@string/service"
+       android:layout_below="@+id/tombolsatu"
        />
 
 </RelativeLayout>
