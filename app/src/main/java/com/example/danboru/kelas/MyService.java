@@ -24,7 +24,7 @@ public class MyService extends Service {
 
         Toast.makeText(getBaseContext(), "Service Mulai", Toast.LENGTH_SHORT) .show();
 
-        return START_STICKY;//apa ini ?
+        return START_STICKY;//looping terus selama belum di destroy
     }
 
 
