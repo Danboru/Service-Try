@@ -8,21 +8,24 @@
     android:gravity="center"
     >
 
+
+
    <Button
        android:id="@+id/tombolsatu"
        android:layout_width="150dp"
        android:layout_height="wrap_content"
-       android:text="@string/berhenti_service"
-       android:onClick="stopSerice"
+       android:text="@string/service"
+
+       android:onClick="startService"
        />
 
    <Button
        android:id="@+id/tomboldua"
        android:layout_width="150dp"
        android:layout_height="wrap_content"
-       android:text="@string/service"
+       android:text="@string/berhenti_service"
        android:layout_below="@+id/tombolsatu"
-       android:onClick="startService"
+       android:onClick="stopService"
        />
 
 </RelativeLayout>

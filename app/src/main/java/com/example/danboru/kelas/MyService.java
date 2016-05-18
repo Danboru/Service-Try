@@ -23,8 +23,8 @@ public class MyService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
 
         Toast.makeText(getBaseContext(), "Service Mulai", Toast.LENGTH_SHORT) .show();
-
         return START_STICKY;//looping terus selama belum di destroy
+
     }
 
 
@@ -34,7 +34,6 @@ public class MyService extends Service {
 
         super.onDestroy();
         Toast.makeText(getBaseContext(), "Service di Destroy", Toast.LENGTH_SHORT).show();
-
 
     }
 }
