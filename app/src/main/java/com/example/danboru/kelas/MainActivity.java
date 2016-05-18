@@ -16,9 +16,7 @@ public class MainActivity extends AppCompatActivity{
 
     @Override
     public ComponentName startService(View view) {
-
             startService(new Intent(getBaseContext(), MyService.class));
-
     }
 
 
