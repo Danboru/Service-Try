@@ -18,7 +18,6 @@ public class MyService extends Service {
         return null;
     }
 
-
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
@@ -26,7 +25,6 @@ public class MyService extends Service {
         return START_STICKY;//looping terus selama belum di destroy
 
     }
-
 
     @Override
     public void onDestroy() {
